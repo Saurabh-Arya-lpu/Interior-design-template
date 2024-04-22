@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner img{
+            width: 100%;
+            height: 70%;
+        }
+        .last{
+            background-color:ghostwhite;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid" style="background-color:#3b5d50">
+    <ul class="nav justify-content-end ">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item" ><a href="#" class="nav-link">About us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+        <img src="user.svg" alt="user" class="img-fluid">
+        <img src="cart.svg" alt="cart" class="img-fluid">
+    </ul>
+    <div class="row">
+        <div class="col-sm-6">
+            <br><br><br><br><br>
+            <h2 class="text-light display-4 font-weight-bold" style="margin-left: 90px;">Modern Interior</h2>
+            <h2 class="text-light display-4 font-weight-bold" style="margin-left: 90px;">Design studio</h2>
+            <button type="button" class="btn btn-warning" style="margin-left: 90px;">Shop now</button>
+            <button type="button" class="btn btn-outline-light" style="margin-left: 10px;">Explore now</button>
+        </div>
+        <div class="col-sm-6"><img src="couch.png" alt="couch" height="500" width="600"></div>
+    </div>
+</div>
+<br>
+<!--carousel slide-->
+<div class="container-fluid">
+    <div id="place" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#place" data-slide-to="0" class="active"></li>
+            <li data-target="#place" data-slide-to="1"></li>
+            <li data-target="#place" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item ">
+                <img src="post-1.jpg" alt="#">
+                <div class="carousel-caption">
+                    <h3>Build your home</h3>
+                    <p>we make it beautiful</p>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="post-2.jpg" alt="#">
+                <div class="carousel-caption">
+                    <h3>Sofa</h3>
+                    <p>best sofa in the world</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="why-choose-us-img.jpg" alt="#">
+                <div class="carousel-caption">
+                    <h3>best interiors</h3>
+                    <p>book now</p>
+                </div>
+            </div>
+        </div>
+     
+        <a  class="carousel-control-prev" href="#place" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#place" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div> 
+
+<!--container-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Crafted with</h2>
+            <h2>Excellent environment.</h2>
+            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+            <button type="button" class="btn btn-dark">Explore</button>
+        </div>
+        <div class="col-sm-3"><img src="product-1.png" alt="product-1" height="200" width="200"><br>Nordic chair <br><strong>$50.00</strong></div>
+        <div class="col-sm-3"><img src="product-2.png" alt="product-2" height="200" width="200"><br>Kruzo Aero chair <br><strong>$78.00</strong></div>
+        <div class="col-sm-3"><img src="product-3.png" alt="product-3" height="200" width="200"><br>Ergonomic chair <br><strong>$43.00</strong></div>
+    </div>
+    <br><br><br>
+    <h3>Why choose us</h3>
+    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+    <div class="row">
+        <div class="col-sm-4"><img src="truck.svg" alt=""><h5>Fast and free shipping</h5><br><p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p><br><h5>24/7 support</h5><br><p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p></div>
+        <div class="col-sm-4"><h5>Easy to Shop</h5><br><p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p><br><h5>Hassele Free returns</h5><br><p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p></div>
+        <div class="col-sm-4"><img src="why-choose-us-img.jpg" class="img-thumnbnail" height="600"></div>
+    </div>
+    <br><br>
+<!--row 2-->
+    <div class="row">
+        <div class="col-sm-6"><img src="img-grid-1.jpg" alt="img-grid-1" class="img-thumnbnail img-fluid" height="600"></div>
+        <div class="col-sm-6"><h5>We help you make modern Interior Design</h5><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt facilis dicta unde quis modi, quod qui ipsum, laudantium distinctio quae ratione? Velit repellat harum deserunt sapiente fuga perferendis et!</p>
+           <div class="row">
+                <div class="col-sm-6">
+                    <ul class="list-unstyled">
+                        <ul><li>Donec vitae odio quis nisl dapibus malesuada</li></ul>
+                        <ul><li>Donec vitae odio quis nisl dapibus malesuada</li></ul>
+                    </ul>
+                    <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#explore">Explore</button>
+                    <div id="explore" class="collapse">
+                        first 100 customers can get flat <strike>50%</strike>80% discount on furnitures <br>
+                        So,hurry up and get place your first order quickly <br>
+                        thank you
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="list-unstyled">
+                        <ul><li>Donec vitae odio quis nisl dapibus malesuada</li></ul>
+                        <ul><li>Donec vitae odio quis nisl dapibus malesuada</li></ul>
+                    </ul>
+                </div>
+           </div>
+        </div>
+    </div>
+    <br><br>
+<!--row 3-->
+        <div class="row">
+            <div class="col-sm-4"><img src="product-1.png" alt="product-1" height="100" width="150">Nordic chair<strong>$50.00</strong></div>
+            <div class="col-sm-4"><img src="product-2.png" alt="product-2" height="100" width="150">Kruzo Aero chair<strong>$78.00</strong></div>
+            <div class="col-sm-4"><img src="product-3.png" alt="product-3" height="100" width="150">Ergonomic chair<strong>$43.00</strong></div>
+        </div> 
+        <br><br>
+<!--testimonals-->  
+        <h2 class="text-center">Testimonals</h2>
+        <br><br><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic deleniti quisquam consequatur deserunt et atque odit eum dolorem, totam placeat optio! Magnam impedit, dolores facilis aspernatur iste ipsa dolor. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quos fuga a reprehenderit, totam atque provident ducimus sed asperiores aut deleniti optio dolorum id quia alias repellat quisquam soluta. Natus!</p>
+        <br>
+        <img src="person-1.png" class="mx-auto d-block rounded-circle" height="100"><p class="text-center" style="font-weight: bolder;">Maria Jones</p><p class="text-center">Ceo,co-founder,xyz.inc</p>
+        <br><br>
+<!--blog-->
+    <p class="font-weight-bold h4">Recent blog</p><a href="#">view all post</a> 
+    <div class="row">
+        <div class="col-sm-4"><img src="post-1.jpg" height="400" class="img-thumnbnail img-fluid rounded" ><p>First time home owner ideas</p><p>by Kristin Watson on Dec 19, 2021</p></div>
+        <div class="col-sm-4"><img src="post-2.jpg"  height="400" class="img-thumnbnail img-fluid rounded"><p>How To Keep Your Furniture Clean</p><p>by Robert Fox on Dec 15, 2021</p></div>
+        <div class="col-sm-4"><img src="post-3.jpg" height="400" class="img-thumnbnail img-fluid rounded" ><p>Small space furniture apartment ideas</p><p>by Krieston Watson on dec 21,2021</p></div>
+    </div>  
+    <br>
+    <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"><img src="sofa.png" alt="sofa" height="300" class="img-thumnbnail"></div>
+    </div>
+    <p>Subscribe to newsletter</p>
+    <input type="search" placeholder="enter your name"> 
+    <input type="search" placeholder="enter your email">   
+    <br><br>  
+    <div class="last">
+    <h1>Furni.</h1>
+    <div class="row">
+        <div class="col-sm-2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam tenetur at repellat eum provident cupiditate, quidem, mollitia delectus corrupti blanditiis nesciunt alias rerum, ad ut quam perferendis illo adipisci doloribus.</p></div>
+        <div class="col-sm-3"><p>About</p><p>services</p><p>Blog</p><p>Contact us</p></div>
+        <div class="col-sm-3"><p>Support</p><p>Knowledge base</p><p>Live chat</p></div>
+        <div class="col-sm-3"><p>Jobs</p><p>Our team</p><p>Leadership</p><p>Privacy policy</p></div>
+        <div class="col-sm-1"><p>Nordic chair</p><p>Kurzo Aero</p><p>Ergonomic chair</p></div>
+    </div>
+    </div>
+    <hr>
+    <pre>Copyright@2024.All rights reserved.-Designed with love by untree.co Distributed by                            Terms & conditions  Privacy policy</pre>
+    <p>Themewagon</p>
+    <br><br>
+</div>
+</body> 
+</html>
